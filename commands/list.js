@@ -23,7 +23,7 @@ function list() {
             }
         })
 
-        return 'lists'
+        // return 'lists'
 
     } else {
         //user does not have tasks in todoList
@@ -33,5 +33,5 @@ function list() {
     }
 }
 export default list
-module.exports = list;
+// module.exports = list;
 

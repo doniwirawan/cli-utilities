@@ -4,6 +4,7 @@ const conf = new Conf();
 
 function markDone({ tasks }) {
     let todosList = conf.get('todo-list')
+    console.log(tasks)
 
     if (todosList) {
         //loop over the todo list tasks
@@ -33,6 +34,6 @@ function markDone({ tasks }) {
     return tasks
 }
 export default markDone
-module.exports = markDone;
+// module.exports = markDone;
 
 
