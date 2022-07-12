@@ -5,17 +5,17 @@ import list from './commands/list.js'
 import markDone from './commands/markDone.js'
 
 program
-    .command('list')
+    .command('todo-list')
     .description('List all the TODO tasks')
     .action(list)
 
 program
-    .command('add <task>')
+    .command('todo-add <task>')
     .description('Add a new TODO task')
     .action(add)
 
 program
-    .command('mark-done')
+    .command('todo-mark-done')
     .description('Mark commands done')
     .option('-t, --tasks <tasks...>', 'The tasks to mark done. If not specified, all tasks will be marked done.')
     .action(markDone)

@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "todos": "./index.js"
+    "util": "./index.js"
   },
   "type": "module",
   "keywords": [],
