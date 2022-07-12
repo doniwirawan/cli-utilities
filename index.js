@@ -1,13 +1,8 @@
 #! /usr/bin/env node
-
-// const { program } = require('commander')
 import { program } from 'commander'
 import add from './commands/add.js'
 import list from './commands/list.js'
 import markDone from './commands/markDone.js'
-// const list = require('./commands/list')
-// const add = require('./commands/add')
-// const markDone = require('./commands/markDone')
 
 program
     .command('list')
