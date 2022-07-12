@@ -24,5 +24,9 @@ function add(task) {
     console.log(
         chalk.green.bold('Task has been added successfully!')
     )
+
+    return task
 }
 export default add
+module.exports = add;
+

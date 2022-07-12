@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "bin": {
     "util": "./index.js"
@@ -18,5 +18,8 @@
     "commander": "^9.3.0",
     "conf": "^10.1.2",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
   }
 }

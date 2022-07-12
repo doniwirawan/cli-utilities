@@ -30,5 +30,9 @@ function markDone({ tasks }) {
     console.log(
         chalk.green.bold('Tasks have been marked as done successfully')
     )
+    return tasks
 }
 export default markDone
+module.exports = markDone;
+
+
